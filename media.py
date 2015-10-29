@@ -1,8 +1,11 @@
 import webbrowser
 
-# Creates movie object
+
 class Movie():
-    def __init__(self, title, storyline, poster_image_url, trailer_youtube_url, game):
+    """ This is a class of movies.
+    """
+    def __init__(self, title, storyline, poster_image_url,
+                 trailer_youtube_url, game):
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image_url
